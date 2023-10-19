@@ -1,0 +1,46 @@
+/*CSS*/
+
+section {
+	border-bottom: dashed black 5px;
+}
+
+.flex-container {
+	display: flex;
+	height: 400px;
+	background-color: aqua;
+	margin: 5em 5%;
+	border: solid blue 3px;
+	justify-content: space-between;
+}
+
+.circle {
+  height: 100px;
+	width: 100px;
+  background-color: yellow;
+  border-radius: 50%;
+	margin: 2.5em 0;
+	z-index: 1;
+	position: relative;
+	right: 140px;
+	top: 20%
+}
+
+.square {
+	height: 150px;
+	width: 150;
+	background-color: green;
+	margin: 1em;
+}
+
+
+@media (max-width:1024px) {
+	body {
+		background-color: orange;
+	}
+}
+
+@media (max-width:480px) {
+	body {
+		background-color: red;
+	}
+}
